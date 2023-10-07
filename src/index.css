@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.image-list {
+  display: flex; /* Sử dụng Flexbox để căn giữa các ảnh */
+  justify-content: center; /* Căn giữa các ảnh theo chiều ngang */
+  gap: 10px; /* Khoảng cách giữa các ảnh */
+}
+
+/* Định dạng cho từng ảnh trong danh sách */
+.image-item {
+  flex: 0 0 auto; /* Đảm bảo rằng các phần tử con không co dãn */
+}
+
+/* Định dạng cho ảnh */
+.image {
+  width: 100px; /* Độ rộng của ảnh */
+  height: 100px; /* Độ cao của ảnh */
+}
